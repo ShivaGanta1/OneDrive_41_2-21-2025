@@ -1,0 +1,244 @@
+
+
+ul li a.active {
+    color:   rgb(154, 8, 8) ;
+  }
+
+
+
+
+
+
+
+
+
+
+.one{
+    /* background-color: whitesmoke; */
+    text-align: center;
+    height: 300px;
+    margin-bottom: 60px;
+    background-image: url("WebsiteImages/new.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: lighten;
+   margin-bottom: 0px;
+   padding-bottom: 40px;
+}
+.Home{
+    padding-top: 120px;
+    font-size: 1em;
+    
+   
+}
+.About2{
+    padding-top: 10px;
+    font-size: 3.5em;
+}
+.aboutus{
+    color:  rgb(154, 8, 8) ; 
+}
+
+
+/* forms */
+
+.form-container1{
+    display: flex;
+   justify-content: center;
+}
+
+
+
+.form-container {
+    background-color: #fff;
+    padding: 20px 40px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.form-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+}
+.form-group input{
+    display: inline;
+    width: auto
+}
+
+label {
+    display:inline;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.options label {
+    display: inline-block;
+    /* margin-right: 15px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-row input {
+    flex: 1;
+    min-width: 150px;
+}
+
+button {
+    background-color:  rgb(154, 8, 8) ;
+    color: #fff;
+    padding: 15px 23px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    /* margin-left: 250px; */
+}
+
+button:hover {
+    background-color:  rgb(9, 9, 9);
+}
+
+
+input[type="date"]::before {
+    content: attr(placeholder); 
+    position: absolute;
+}
+input[type="date"]::-webkit-datetime-edit {
+    color: transparent; 
+}
+
+
+
+
+
+@media (max-width: 320px) {
+
+    .form-container1{
+        display: flex;
+       justify-content: center;
+    }
+    
+    
+    
+    .form-container {
+        background-color: #fff;
+        padding: 20px 40px;
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    
+    .form-container h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction:column ;
+    }
+    .form-group input{
+        display: inline;
+        flex-direction: column;
+        width: auto
+    }
+    
+    label {
+        display:inline;
+        flex-direction: column;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .options label {
+        display: inline-block;
+        flex-direction: column;
+        /* margin-right: 15px; */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    input, textarea {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    
+    textarea {
+        height: 100px;
+    }
+    
+    .form-row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .form-row input {
+        flex: 1;
+        min-width: 150px;
+    }
+    
+    button {
+        /* background-color: rgb(239, 25, 25); */
+        color: #fff;
+        padding: 15px 23px;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+        /* margin-left: 250px; */
+    }
+    
+    button:hover {
+        background-color:  rgb(9, 9, 9);
+    }
+    
+    
+    input[type="date"]::before {
+        content: attr(placeholder); 
+        position: absolute;
+    }
+    input[type="date"]::-webkit-datetime-edit {
+        color: transparent; 
+    }
+    
+}

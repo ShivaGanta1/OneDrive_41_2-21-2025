@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First WebPage</title>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            /* justify-content:safe; */
+            /* background-color: yellow; */
+             text-align: center; 
+            padding: 0px;
+        }
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            /* padding: 20px; */
+        }
+        .column {
+            /* flex: 1; */
+            /* margin: 0; */
+            /* padding: 10px; */
+        }
+       .first{
+        flex:1;
+        padding: 20px;
+        margin: 0%;
+        background-color: pink;
+        justify-content: space-between;
+       }
+       .second{
+        flex:1;
+        padding: 20px;
+        margin: 0%;
+        background-color: yellow;
+        justify-content: space-between;
+       }
+       
+        img {
+            padding: 20px;
+            margin: 00px 0px -50px 30px; 
+            max-width: 100%;
+            height: auto;
+            
+        }
+        footer {
+            background-color:yellow;
+            color: black;
+            text-align: center;
+            padding: 50px;
+            border-top:2px solid black ;
+        }
+        a{
+            padding: 20px;
+            background-color: yellow;
+            text-decoration: none;
+            justify-content: center;
+           
+        }
+        
+        p{
+            line-height: 1.6;
+            margin: 40px;
+            padding: 30px;
+        }
+        .vertical-line {
+            border-left: 2px solid black; 
+            margin-top: 18px;
+        }
+    </style> 
+</head>
+<body>
+    <header>
+        <h3 class="first" >April 27, 2022</h3>
+        <h3 class="second">Typecalendar</h3>
+        <h3 class="second">Bettina Jessen</h3>
+    </header>
+    <Div style="text-align: center;  font-size: 40px;">
+        <h2 style="height: 20px;">w e e k l y</h2>
+        <h1>newsletter</h1>
+    </Div>
+    <hr style="border: 2px solid black;">
+    <img src="imageld.png">
+    <div class="columns">
+        <div class="column">
+            <h3 style="padding: 20px; background-color: yellow; text-align: center;" >Company News</h3>
+            <p>Delivering newsletters through email is one of the best ways to build a strong relationship with your members and customers.
+                <br><br> Given them exclusive access to your latest collections,services,and limited offers While simultaneosly improving your brans's visibility-- no need to limit yourself to brochures <br> billboards.Clients can be up-to-date on your 
+                   newest and biggest releases at home,work,and even while travelling with a simple click.
+                   <br><br>
+                   <a href="#" style="display: block; width: 100px; margin: 0 auto; background-color: yellow; text-align: center; padding: 7px;">Read more</a>
+                </p>
+            
+        </div>
+        <div class="vertical-line"></div>
+        <div class="column">
+            <h3 style="padding: 20px; background-color: pink; text-align: center;">Project News</h3>
+            <p>Delivering newsletters through email is one of the best ways to build a strong relationship with your members and customers.
+            <br><br> Given them exclusive access to your latest collections,services,and limited offers While simultaneosly improving your brans's visibility-- no need to limit yourself to brochures <br> billboards.Clients can be up-to-date on your 
+               newest and biggest releases at home,work,and even while travelling with a simple click.
+               <br><br>
+               <a href="#" style="display: block; width: 100px; margin: 0 auto; background-color: yellow; text-align: center; padding: 7px;">Read more</a>
+
+            </p>
+           
+        </div>
+    </div>
+    
+    <footer>
+        <a href="#">www.typecalendar.com</a>
+    </footer>
+</body>
+</html>

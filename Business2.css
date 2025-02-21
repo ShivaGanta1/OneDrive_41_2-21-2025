@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: content-box;
+    
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+.top-div
+{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(50, 5, 141);
+    border-bottom-right-radius: 45px;
+}
+.row1
+{
+    width: 450px;
+}
+.business-name img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    float: right;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); 
+    position: relative;
+    bottom: 50px;  
+}
+.name{
+    position: relative;
+    top: 400px;
+    padding: 20px;
+    color:rgb(50, 5, 141) ;
+}
+span{
+    color: yellow;
+    
+}
+.line{
+    border: 1px solid ;
+    height: 2px;
+    width: 40%;
+}
+.innerline{
+    height: 2px;
+    width: 30%;
+    background-color: yellow;
+}
+.innerline{
+    height: 3px;
+    width: 30%;
+    background-color: rgb(47, 126, 243);
+}
+.main-circle
+{
+    float: right;
+    width: 48%;
+}
+.round-circlebig
+{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+   margin-right: 50px;
+   position: relative;
+   bottom: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   position: relative;
+   bottom: 80%;
+   left: 800px;
+   
+}
+.heading-hello
+{
+  
+  margin-left: 80px;
+  
+}
+.loremhello
+{
+    color: white;
+}
+.low-passage
+{
+    margin-left: 20px;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+}
+
+.span
+{
+    width: 20px;
+    height: 20px;
+   background-color: yellow;
+   border-radius: 50%;
+   display: flex;
+   position: relative;
+   left: 45px;
+   bottom: 30px;
+
+}
+.About{
+    background-color:  rgb(50, 5, 141);
+    height: 150px;
+}
+.foot{
+    background-color: yellow;
+    color: white;
+   width: 100%;
+   text-align: right;
+}
+
+/* .b-name{
+    color: white;
+} */

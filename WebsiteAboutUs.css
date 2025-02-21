@@ -1,0 +1,382 @@
+
+/* .list a:active{
+    color:  rgb(239, 25, 25);
+}
+ */
+
+ ul li a.active {
+    color:rgb(154, 8, 8) ;
+  }
+
+/* .About2{
+    z-index: 2;
+} */
+
+
+  /* .one::after{
+    background-image: linear-gradient(360deg, rgba(255,255,255,0.8) 0%, #ffffff 100%);
+    z-index: 1;
+} */
+/* .background{
+    background-image: url("WebsiteImages/new.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: 1;
+} */
+
+
+.one{
+    /* background-color: whitesmoke; */
+    text-align: center;
+    height: 300px;
+    margin-bottom: 60px;
+    background-image: url("WebsiteImages/new.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 0px;
+   
+}
+
+
+.Home{
+    padding-top: 120px;
+    font-size: 1em;
+    
+   
+}
+.About2{
+    padding-top: 10px;
+    font-size: 3.5em;
+}
+.aboutus{
+    color:  rgb(154, 8, 8) ; 
+}
+
+.AtAbout{
+    background-color: whitesmoke;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    line-height: 2em;
+    text-align: center;
+}
+.AtAbout{
+    padding-left: 300px;
+    padding-right: 300px;
+    /* display: flex;
+    justify-content: center; */
+    /* padding-bottom: 20px;
+    padding-top: 20px; */
+}
+
+
+/* another section */
+
+.three3{
+   margin-bottom: 60px;
+   background-image: url("WebsiteImages/websiteabout.png");
+   background-repeat: no-repeat;
+   background-position: 20px ;
+   background-size: 100%;
+   background-blend-mode: color-dodge;
+}
+
+.history{
+    padding-top: 20px;
+    /* padding-left: 90px;
+    padding-right: 90px; */
+    font-size: 2.5em;
+}
+
+
+
+.oldest{
+    /* padding-left: 90px;
+    padding-right: 90px; */
+    padding-top: 10px;
+    color:  rgb(154, 8, 8) ; 
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+.three31{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.three31 p{
+    line-height: 2.5em;
+    padding-right: 600px;
+}
+.three31 a{
+    color:  rgb(154, 8, 8) ;
+}
+.three31 a:hover{
+    color: rgb(28, 27, 27);
+}
+
+.three31 iframe{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+@media (max-width: 320px) 
+{
+    .one{
+        /* background-color: whitesmoke; */
+        text-align: center;
+        height: 300px;
+        margin-bottom: 60px;
+        background-image: url("WebsiteImages/new.png");
+        background-repeat: no-repeat;
+       background-size: cover;
+       margin-bottom: 0px;
+       
+    }
+   .two{
+    padding: 0px;
+
+    }
+    
+    
+    .Home{
+        padding-top: 120px;
+        font-size: 1em;
+        
+       
+    }
+    .About2{
+        padding-top: 10px;
+        font-size: 3.5em;
+    }
+    .aboutus{
+        color:  rgb(154, 8, 8) ; 
+    }
+    
+    .AtAbout{
+        background-color: whitesmoke;
+        margin-top: 0px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+        /* width: 320px; */
+        /* padding-left: 120px; */
+        /* padding-right: 120px; */
+        line-height: 2em;
+        /* text-align: center; */
+    }
+    .AtAbout{
+        padding-left: 10px;
+        padding-right: 10px;
+        /* padding-left: 300px; */
+        /* padding-right: 300px; */
+        /* display: flex;
+        justify-content: center; */
+        /* padding-bottom: 20px;
+        padding-top: 20px; */
+    }
+    
+}
+
+
+
+@media (max-width: 320px) {
+    .three3{
+        margin-bottom: 60px;
+        background-image: url("WebsiteImages/websiteabout.png");
+        background-repeat: no-repeat;
+        /* background-position: 20px ;*/
+        background-size: 100%; 
+        /* background-position: center; */
+        /* background-size:cover; */
+        /* background-blend-mode: color-dodge; */
+     }
+     
+     .history{
+         padding-top: 20px;
+         /* padding-left: 90px;
+         padding-right: 90px; */
+         font-size: 2.5em;
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+     
+     
+     
+     .oldest{
+         /* padding-left: 90px;
+         padding-right: 90px; */
+         padding-top: 10px;
+         /* color:  rgb(239, 25, 25);  */
+         font-size: 1.5em;
+         padding-bottom: 10px;
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+     .three31{
+         /* padding-left: 90px; */
+         /* padding-right: 90px; */
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+     .three31 p{
+         line-height: 2.5em;
+         /* padding-right: 600px; */
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+     /* .three31 a{
+         color:  rgb(239, 25, 25);
+     } */
+     .three31 a:hover{
+         color: rgb(28, 27, 27);
+     }
+     
+     .three31 iframe{
+        margin-top: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+     }
+
+     .three31 iframe{
+      width: 290px; 
+        height: 500px; 
+        border: 1px solid #ccc; }
+}
+
+
+
+/* tablet */
+
+@media (min-width: 321px) and (max-width: 768px) 
+{
+
+    .one{
+        /* background-color: whitesmoke; */
+        text-align: center;
+        height: 300px;
+        margin-bottom: 60px;
+        background-image: url("WebsiteImages/new.png");
+        background-repeat: no-repeat;
+       background-size: cover;
+       margin-bottom: 0px;
+       
+    }
+   .two{
+    padding: 0px;
+    
+
+    }
+    
+    
+    .Home{
+        padding-top: 120px;
+        font-size: 1em;
+        
+       
+    }
+    .About2{
+        padding-top: 10px;
+        font-size: 3.5em;
+    }
+    .aboutus{
+        color:   rgb(154, 8, 8) ; 
+    }
+    
+    .AtAbout{
+        background-color: whitesmoke;
+        margin-top: 0px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+        /* width: 320px; */
+        /* padding-left: 120px; */
+        /* padding-right: 120px; */
+        line-height: 2em;
+        
+    }
+    .AtAbout{
+        padding-left: 70px;
+        padding-right: 70px;
+        /* padding-left: 300px; */
+        /* padding-right: 300px; */
+        /* display: flex;
+        justify-content: center; */
+        /* padding-bottom: 20px;
+        padding-top: 20px; */
+    }
+    
+}
+
+@media (min-width: 321px) and (max-width: 768px) 
+{
+
+    .three3{
+        margin-bottom: 60px;
+        background-image: url("WebsiteImages/websiteabout.png");
+        background-repeat: no-repeat;
+        /* background-position: 20px ; */
+        background-position: center;
+        background-size: cover;
+        /* background-blend-mode: color-dodge; */
+     }
+     
+     .history{
+         padding-top: 20px;
+         /* padding-left: 90px;
+         padding-right: 90px; */
+         font-size: 2.5em;
+         padding-left: 20px;
+         padding-right: 10px;
+     }
+     
+     
+     
+     .oldest{
+         /* padding-left: 90px;
+         padding-right: 90px; */
+         padding-top: 10px;
+         /* color:  rgb(239, 25, 25);  */
+         font-size: 1.5em;
+         padding-bottom: 10px;
+         padding-left: 20px;
+         padding-right: 10px;
+     }
+     .three31{
+         /* padding-left: 90px; */
+         /* padding-right: 90px; */
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+     .three31 p{
+         line-height: 2.5em;
+         /* padding-right: 600px; */
+         padding-left: 20px;
+         padding-right: 100px;
+     }
+     /* .three31 a{
+         color:  rgb(239, 25, 25);
+     } */
+     .three31 a:hover{
+         color: rgb(28, 27, 27);
+     }
+     
+     .three31 iframe{
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 0px;
+        
+     }
+
+     .three31 iframe{
+      width: 400px; 
+      height: 500px; 
+        border: 1px solid #ccc; }
+}
